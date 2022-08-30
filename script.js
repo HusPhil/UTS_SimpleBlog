@@ -7,7 +7,7 @@ setTimeout( () => overlay.classList.add("show-modal"), 1)
 
 addEventListener("click", () => {
     modal.classList.remove("show-modal")
-    modal.classList.add("hide-modal")
+    modal.classList.add("hide-modal", "noclick")
     overlay.classList.remove("show-modal")
 
 })
