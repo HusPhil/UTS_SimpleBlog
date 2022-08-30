@@ -240,3 +240,6 @@ text-align: center;
 .modal p{
     font-size: 1.35rem;
 }
+.noclick{
+    pointer-events: none;
+}
